@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+// アニメーションぷるん
+@mixin animPrun(
+    $duration: 5.0s,
+    $delay: 1s
+){
+    animation: prun $duration ease $delay infinite;
+};
+@keyframes prun {
+  48%, 62% {transform: scale(1.0, 1.0)}
+  50% {transform: scale(1.1, 0.9)}
+  56% {transform: scale(0.9, 1.1) translate(0, -5px)}
+  59% {transform: scale(1.0, 1.0) translate(0, -3px)}
+}
+
+
+// アニメーション点滅
+@mixin animFlash(
+    $duration: 5.0s,
+    $delay: 1s
+){
+    animation: flash $duration ease $delay infinite;
+};
+@keyframes flash {
+    0% {opacity:0;}
+    70% {opacity:1;}
+}
+
+// アニメーションくるん
+@mixin animKrun(
+    $duration: 5.0s,
+    $delay: 1s
+){
+    animation: krun $duration ease $delay infinite;
+};
+@keyframes krun {
+    30% { transform: scale(1, 1); }
+    50% { transform: scale(-1, 1); }
+    90% { transform: scale(1, 1); }
+}
+
+
+// アニメーションすぴん
+@mixin animSpin(
+    $duration: 5.0s,
+    $delay: 1s
+){
+    animation: spin $duration ease $delay infinite;
+};
+@keyframes spin {
+    30% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+// アニメーションまるころ
+@mixin animMarukoro(
+    $duration: 5.0s,
+    $delay: 1s
+){
+    animation: marukoro $duration ease $delay infinite;
+};
+@keyframes marukoro {
+    0% {border-radius: 0%;}
+    20% {border-radius: 50%;transform: rotate(0deg);}
+    60% {border-radius: 50%;transform: rotate(30deg);}
+    100% {border-radius: 0%;transform: rotate(0deg);}
+}

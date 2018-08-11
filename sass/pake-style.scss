@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+// 変数、mixin等の定義
+@import "variables.scss";
+
+//アニメーションぷるん
+@for $i from 1 through 5 {
+    .pake-anime-prun#{$i}s {
+        @include animPrun(
+            $duration: 5.0s,
+            $delay: #{$i}s
+        );
+    }
+}
+
+//アニメーション点滅
+@for $i from 1 through 5 {
+    .pake-anime-flash#{$i}s {
+        @include animFlash(
+            $duration: 5.0s,
+            $delay: #{$i}s
+        );
+    }
+}
+
+//アニメーションくるん
+@for $i from 1 through 5 {
+    .pake-anime-krun#{$i}s {
+        @include animKrun(
+            $duration: 5.0s,
+            $delay: #{$i}s
+        );
+    }
+}
+
+//アニメーションすぴん
+@for $i from 1 through 5 {
+    .pake-anime-spin#{$i}s {
+        @include animSpin(
+            $duration: 5.0s,
+            $delay: #{$i}s
+        );
+    }
+}
+
+//アニメーションまるころ
+@for $i from 1 through 5 {
+    .pake-anime-marukoro#{$i}s {
+        @include animMarukoro(
+            $duration: 5.0s,
+            $delay: #{$i}s
+        );
+    }
+}
