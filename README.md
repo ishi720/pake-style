@@ -10,7 +10,7 @@ npm i pake-style
 ### yarn
 
 ```
-yarn add ishi720/pake-style 
+yarn add pake-style 
 ```
 
 # 読み込み

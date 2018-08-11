@@ -1,7 +1,7 @@
 {
   "name": "pake-style",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "時間差で順番に動いていくアニメーションのスタイルです。",
   "main": "index.js",
   "files": [
     "README.md",
@@ -23,5 +23,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ishi720",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "animation"
+  ]
 }
