@@ -10,7 +10,7 @@
   ],
   "devDependencies": {
     "gulp": "3.x.x",
-    "gulp-autoprefixer": "5.x.x",
+    "gulp-autoprefixer": "6.x.x",
     "gulp-minify-css": "1.x.x",
     "gulp-plumber": "1.x.x",
     "gulp-rename": "1.x.x",
