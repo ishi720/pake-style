@@ -1,3 +1,10 @@
+# pake-style
+
+[![npm version](https://badge.fury.io/js/pake-style.svg)](https://badge.fury.io/js/pake-style)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1109d9f758154a6f9bc3050caa39b2d7)](https://www.codacy.com/app/ishi720/pake-style?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ishi720/pake-style&amp;utm_campaign=Badge_Grade)
+
+
+
 # インストール
 
 ### npm
