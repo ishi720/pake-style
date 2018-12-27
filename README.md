@@ -3,24 +3,25 @@
 [![npm version](https://badge.fury.io/js/pake-style.svg)](https://badge.fury.io/js/pake-style)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1109d9f758154a6f9bc3050caa39b2d7)](https://www.codacy.com/app/ishi720/pake-style?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ishi720/pake-style&amp;utm_campaign=Badge_Grade)
 
+## サンプル
 
+https://ishi720.github.io/pake-style/
 
-# インストール
+## インストール
 
-### npm
+- npm
 
 ```bash
 npm i pake-style 
 ```
 
-
-### yarn
+- yarn
 
 ```bash
 yarn add pake-style 
 ```
 
-# 読み込み
+## 読み込み
 
 HTMLで以下のようにCSSファイルを読み込んで下さい
 
@@ -28,7 +29,7 @@ HTMLで以下のようにCSSファイルを読み込んで下さい
 <link href="pake-style/css/pake-style.min.css" rel="stylesheet" type="text/css">
 ```
 
-# 使い方
+## 使い方
 
 - アニメーションぷるん(pake-anime-prun1s ~ pake-anime-prun5s)
 
