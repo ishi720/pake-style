@@ -1,6 +1,6 @@
 {
   "name": "pake-style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "時間差で順番に動いていくアニメーションのスタイルです。",
   "main": "index.js",
   "files": [
