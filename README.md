@@ -9,14 +9,14 @@
 
 ### npm
 
-```
+```bash
 npm i pake-style 
 ```
 
 
 ### yarn
 
-```
+```bash
 yarn add pake-style 
 ```
 
@@ -25,7 +25,7 @@ yarn add pake-style
 HTMLで以下のようにCSSファイルを読み込んで下さい
 
 ```html
-<link href="pake-style/css/pake_anime.min.css" rel="stylesheet" type="text/css">
+<link href="pake-style/css/pake-style.min.css" rel="stylesheet" type="text/css">
 ```
 
 # 使い方
