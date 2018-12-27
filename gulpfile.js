@@ -13,7 +13,7 @@ var versionFormat = require('gulp-package-version-format');
 // sassコンパイル
 gulp.task('sass', function() {
     return gulp.src('sass/**/pake-style.scss')
-    	.pipe(plumber())
+        .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
