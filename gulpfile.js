@@ -1,3 +1,5 @@
+'use strict';
+
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
@@ -8,8 +10,9 @@ var minifyCss  = require('gulp-minify-css');
 var plumber = require('gulp-plumber');
 var versionFormat = require('gulp-package-version-format');
 
+// sassコンパイル
 gulp.task('sass', function() {
-    gulp.src('sass/**/pake-style.scss')
+    return gulp.src('sass/**/pake-style.scss')
     	.pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass())
@@ -25,12 +28,17 @@ gulp.task('sass', function() {
 });
 
 
-gulp.task('watch', function(){
-    gulp.watch('sass/**/*.scss', ['sass']);
-});
-
-gulp.task('versionFormat', function(){
-    gulp.src('./package.json')
+// package.jsonのバージョン簡略化
+gulp.task('packagejson', function(){
+    return gulp.src('./package.json')
         .pipe(versionFormat())
         .pipe(gulp.dest('./'));
 });
+
+// ファイル監視
+gulp.task('watch', function(){
+    gulp.watch('sass/**/*.scss', gulp.task('sass'));
+});
+
+// デフォルト処理
+gulp.task('default', gulp.series(gulp.parallel('watch')));
