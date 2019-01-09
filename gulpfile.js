@@ -6,7 +6,7 @@ var autoprefixer = require('gulp-autoprefixer');
 require('gulp-watch');
 var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
-var minifyCss  = require('gulp-minify-css');
+var cleanCSS = require('gulp-clean-css');
 var plumber = require('gulp-plumber');
 var versionFormat = require('gulp-package-version-format');
 
@@ -22,7 +22,7 @@ gulp.task('sass', function() {
         }))
         .pipe(gulp.dest('./css'))
         .pipe(rename({extname: '.min.css'}))
-        .pipe(minifyCss({advanced:false}))
+        .pipe(cleanCSS())
         .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('./css'));
 });

@@ -16,13 +16,13 @@
   "devDependencies": {
     "gulp": "4.x.x",
     "gulp-autoprefixer": "6.x.x",
-    "gulp-minify-css": "1.x.x",
+    "gulp-clean-css": "4.x.x",
+    "gulp-package-version-format": "1.x.x",
     "gulp-plumber": "1.x.x",
     "gulp-rename": "1.x.x",
     "gulp-sass": "4.x.x",
     "gulp-sourcemaps": "2.x.x",
-    "gulp-watch": "5.x.x",
-    "gulp-package-version-format": "1.x.x"
+    "gulp-watch": "5.x.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
