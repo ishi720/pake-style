@@ -1,6 +1,6 @@
 {
   "name": "pake-style",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "時間差で順番に動いていくアニメーションのスタイルです。",
   "homepage": "https://github.com/ishi720/pake-style#readme",
   "main": "index.js",
