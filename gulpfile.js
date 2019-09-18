@@ -17,7 +17,6 @@ gulp.task('sass', function() {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({
-            browsers: ['last 2 version'],
             cascade: false
         }))
         .pipe(gulp.dest('./css'))
