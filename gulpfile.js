@@ -1,14 +1,14 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
 require('gulp-watch');
-var rename = require('gulp-rename');
-var sourcemaps = require('gulp-sourcemaps');
-var cleanCSS = require('gulp-clean-css');
-var plumber = require('gulp-plumber');
-var versionFormat = require('gulp-package-version-format');
+const rename = require('gulp-rename');
+const sourcemaps = require('gulp-sourcemaps');
+const cleanCSS = require('gulp-clean-css');
+const plumber = require('gulp-plumber');
+const versionFormat = require('gulp-package-version-format');
 
 // sassコンパイル
 gulp.task('sass', function() {
