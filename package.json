@@ -21,7 +21,7 @@
     "gulp-plumber": "1.x.x",
     "gulp-rename": "2.x.x",
     "gulp-sass": "4.x.x",
-    "gulp-sourcemaps": "2.x.x",
+    "gulp-sourcemaps": "3.x.x",
     "gulp-watch": "5.x.x"
   },
   "scripts": {
