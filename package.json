@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "gulp": "4.x.x",
-    "gulp-autoprefixer": "7.x.x",
+    "gulp-autoprefixer": "8.x.x",
     "gulp-clean-css": "4.x.x",
     "gulp-package-version-format": "1.x.x",
     "gulp-plumber": "1.x.x",

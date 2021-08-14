@@ -1,209 +1,264 @@
 @-webkit-keyframes prun {
   48%, 62% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); }
+    transform: scale(1, 1);
+  }
   50% {
     -webkit-transform: scale(1.1, 0.9);
-    transform: scale(1.1, 0.9); }
+    transform: scale(1.1, 0.9);
+  }
   56% {
     -webkit-transform: scale(0.9, 1.1) translate(0, -5px);
-    transform: scale(0.9, 1.1) translate(0, -5px); }
+    transform: scale(0.9, 1.1) translate(0, -5px);
+  }
   59% {
     -webkit-transform: scale(1, 1) translate(0, -3px);
-    transform: scale(1, 1) translate(0, -3px); } }
-
+    transform: scale(1, 1) translate(0, -3px);
+  }
+}
 @keyframes prun {
   48%, 62% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); }
+    transform: scale(1, 1);
+  }
   50% {
     -webkit-transform: scale(1.1, 0.9);
-    transform: scale(1.1, 0.9); }
+    transform: scale(1.1, 0.9);
+  }
   56% {
     -webkit-transform: scale(0.9, 1.1) translate(0, -5px);
-    transform: scale(0.9, 1.1) translate(0, -5px); }
+    transform: scale(0.9, 1.1) translate(0, -5px);
+  }
   59% {
     -webkit-transform: scale(1, 1) translate(0, -3px);
-    transform: scale(1, 1) translate(0, -3px); } }
-
+    transform: scale(1, 1) translate(0, -3px);
+  }
+}
 @-webkit-keyframes flash {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   70% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @keyframes flash {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   70% {
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @-webkit-keyframes krun {
   30% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); }
+    transform: scale(1, 1);
+  }
   50% {
     -webkit-transform: scale(-1, 1);
-    transform: scale(-1, 1); }
+    transform: scale(-1, 1);
+  }
   90% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); } }
-
+    transform: scale(1, 1);
+  }
+}
 @keyframes krun {
   30% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); }
+    transform: scale(1, 1);
+  }
   50% {
     -webkit-transform: scale(-1, 1);
-    transform: scale(-1, 1); }
+    transform: scale(-1, 1);
+  }
   90% {
     -webkit-transform: scale(1, 1);
-    transform: scale(1, 1); } }
-
+    transform: scale(1, 1);
+  }
+}
 @-webkit-keyframes spin {
   30% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
+    transform: rotate(360deg);
+  }
+}
 @keyframes spin {
   30% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
+    transform: rotate(360deg);
+  }
+}
 @-webkit-keyframes marukoro {
   0% {
-    border-radius: 0%; }
+    border-radius: 0%;
+  }
   20% {
     border-radius: 50%;
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   60% {
     border-radius: 50%;
     -webkit-transform: rotate(30deg);
-    transform: rotate(30deg); }
+    transform: rotate(30deg);
+  }
   100% {
     border-radius: 0%;
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); } }
-
+    transform: rotate(0deg);
+  }
+}
 @keyframes marukoro {
   0% {
-    border-radius: 0%; }
+    border-radius: 0%;
+  }
   20% {
     border-radius: 50%;
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   60% {
     border-radius: 50%;
     -webkit-transform: rotate(30deg);
-    transform: rotate(30deg); }
+    transform: rotate(30deg);
+  }
   100% {
     border-radius: 0%;
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); } }
-
+    transform: rotate(0deg);
+  }
+}
 .pake-anime-prun1s {
   -webkit-animation: prun 5s ease 1s infinite;
-  animation: prun 5s ease 1s infinite; }
+  animation: prun 5s ease 1s infinite;
+}
 
 .pake-anime-prun2s {
   -webkit-animation: prun 5s ease 2s infinite;
-  animation: prun 5s ease 2s infinite; }
+  animation: prun 5s ease 2s infinite;
+}
 
 .pake-anime-prun3s {
   -webkit-animation: prun 5s ease 3s infinite;
-  animation: prun 5s ease 3s infinite; }
+  animation: prun 5s ease 3s infinite;
+}
 
 .pake-anime-prun4s {
   -webkit-animation: prun 5s ease 4s infinite;
-  animation: prun 5s ease 4s infinite; }
+  animation: prun 5s ease 4s infinite;
+}
 
 .pake-anime-prun5s {
   -webkit-animation: prun 5s ease 5s infinite;
-  animation: prun 5s ease 5s infinite; }
+  animation: prun 5s ease 5s infinite;
+}
 
 .pake-anime-flash1s {
   -webkit-animation: flash 5s ease 1s infinite;
-  animation: flash 5s ease 1s infinite; }
+  animation: flash 5s ease 1s infinite;
+}
 
 .pake-anime-flash2s {
   -webkit-animation: flash 5s ease 2s infinite;
-  animation: flash 5s ease 2s infinite; }
+  animation: flash 5s ease 2s infinite;
+}
 
 .pake-anime-flash3s {
   -webkit-animation: flash 5s ease 3s infinite;
-  animation: flash 5s ease 3s infinite; }
+  animation: flash 5s ease 3s infinite;
+}
 
 .pake-anime-flash4s {
   -webkit-animation: flash 5s ease 4s infinite;
-  animation: flash 5s ease 4s infinite; }
+  animation: flash 5s ease 4s infinite;
+}
 
 .pake-anime-flash5s {
   -webkit-animation: flash 5s ease 5s infinite;
-  animation: flash 5s ease 5s infinite; }
+  animation: flash 5s ease 5s infinite;
+}
 
 .pake-anime-krun1s {
   -webkit-animation: krun 5s ease 1s infinite;
-  animation: krun 5s ease 1s infinite; }
+  animation: krun 5s ease 1s infinite;
+}
 
 .pake-anime-krun2s {
   -webkit-animation: krun 5s ease 2s infinite;
-  animation: krun 5s ease 2s infinite; }
+  animation: krun 5s ease 2s infinite;
+}
 
 .pake-anime-krun3s {
   -webkit-animation: krun 5s ease 3s infinite;
-  animation: krun 5s ease 3s infinite; }
+  animation: krun 5s ease 3s infinite;
+}
 
 .pake-anime-krun4s {
   -webkit-animation: krun 5s ease 4s infinite;
-  animation: krun 5s ease 4s infinite; }
+  animation: krun 5s ease 4s infinite;
+}
 
 .pake-anime-krun5s {
   -webkit-animation: krun 5s ease 5s infinite;
-  animation: krun 5s ease 5s infinite; }
+  animation: krun 5s ease 5s infinite;
+}
 
 .pake-anime-spin1s {
   -webkit-animation: spin 5s ease 1s infinite;
-  animation: spin 5s ease 1s infinite; }
+  animation: spin 5s ease 1s infinite;
+}
 
 .pake-anime-spin2s {
   -webkit-animation: spin 5s ease 2s infinite;
-  animation: spin 5s ease 2s infinite; }
+  animation: spin 5s ease 2s infinite;
+}
 
 .pake-anime-spin3s {
   -webkit-animation: spin 5s ease 3s infinite;
-  animation: spin 5s ease 3s infinite; }
+  animation: spin 5s ease 3s infinite;
+}
 
 .pake-anime-spin4s {
   -webkit-animation: spin 5s ease 4s infinite;
-  animation: spin 5s ease 4s infinite; }
+  animation: spin 5s ease 4s infinite;
+}
 
 .pake-anime-spin5s {
   -webkit-animation: spin 5s ease 5s infinite;
-  animation: spin 5s ease 5s infinite; }
+  animation: spin 5s ease 5s infinite;
+}
 
 .pake-anime-marukoro1s {
   -webkit-animation: marukoro 5s ease 1s infinite;
-  animation: marukoro 5s ease 1s infinite; }
+  animation: marukoro 5s ease 1s infinite;
+}
 
 .pake-anime-marukoro2s {
   -webkit-animation: marukoro 5s ease 2s infinite;
-  animation: marukoro 5s ease 2s infinite; }
+  animation: marukoro 5s ease 2s infinite;
+}
 
 .pake-anime-marukoro3s {
   -webkit-animation: marukoro 5s ease 3s infinite;
-  animation: marukoro 5s ease 3s infinite; }
+  animation: marukoro 5s ease 3s infinite;
+}
 
 .pake-anime-marukoro4s {
   -webkit-animation: marukoro 5s ease 4s infinite;
-  animation: marukoro 5s ease 4s infinite; }
+  animation: marukoro 5s ease 4s infinite;
+}
 
 .pake-anime-marukoro5s {
   -webkit-animation: marukoro 5s ease 5s infinite;
-  animation: marukoro 5s ease 5s infinite; }
+  animation: marukoro 5s ease 5s infinite;
+}
