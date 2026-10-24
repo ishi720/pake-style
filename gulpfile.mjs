@@ -1,13 +1,14 @@
-'use strict';
+import gulp from 'gulp';
+import * as dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+import autoprefixer from 'gulp-autoprefixer';
+import rename from 'gulp-rename';
+import sourcemaps from 'gulp-sourcemaps';
+import cleanCSS from 'gulp-clean-css';
+import plumber from 'gulp-plumber';
+import versionFormat from 'gulp-package-version-format';
 
-const gulp = require('gulp');
-const sass = require('gulp-sass')(require('sass'));
-const autoprefixer = require('gulp-autoprefixer');
-const rename = require('gulp-rename');
-const sourcemaps = require('gulp-sourcemaps');
-const cleanCSS = require('gulp-clean-css');
-const plumber = require('gulp-plumber');
-const versionFormat = require('gulp-package-version-format');
+const sass = gulpSass(dartSass);
 
 // sassコンパイル
 gulp.task('sass', function() {

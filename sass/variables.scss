@@ -8,10 +8,10 @@
     animation: prun $duration ease $delay infinite;
 };
 @keyframes prun {
-  48%, 62% {transform: scale(1.0, 1.0)}
-  50% {transform: scale(1.1, 0.9)}
-  56% {transform: scale(0.9, 1.1) translate(0, -5px)}
-  59% {transform: scale(1.0, 1.0) translate(0, -3px)}
+    48%, 62% {transform: scale(1.0, 1.0)}
+    50% {transform: scale(1.1, 0.9)}
+    56% {transform: scale(0.9, 1.1) translate(0, -5px)}
+    59% {transform: scale(1.0, 1.0) translate(0, -3px)}
 }
 
 

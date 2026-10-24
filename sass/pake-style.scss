@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 // 変数、mixin等の定義
-@import "variables.scss";
+@use "variables" as *;
 
 //アニメーションぷるん
 @for $i from 1 through 5 {
